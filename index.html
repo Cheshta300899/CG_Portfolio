@@ -5,50 +5,56 @@
 <title>Cheshta Portfolio</title>
 <link rel="icon" type="image/png" href="img/logo.jpg">
 <link rel="stylesheet" href="style.css" />
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-  
+
 <style>
-* {box-sizing: border-box}
+* { box-sizing: border-box; }
+
 .container {
-  width:200%;
+  width: 100%;
   background-color: #ddd;
+  border-radius: 20px;
 }
 
-.skills {
+.skills-bar {
   text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 8px;
   color: white;
+  border-radius: 20px;
+  font-size: 14px;
 }
 
-.html {width: 90%; background-color: #04AA6D;}
-.css {width: 70%; background-color: #f44336;}
+.seo { width: 85%; background-color: #04AA6D; }
+.smm { width: 80%; background-color: #2196F3; }
+.ads { width: 70%; background-color: #f44336; }
+.analytics { width: 75%; background-color: #ff9800; }
 </style>
-  
 </head>
+
 <body>
 
+<!-- Scroll Button -->
 <div class="scroll-button">
 <a href="#home"><i class="fas fa-arrow-up"></i></a>
 </div>
 
+<!-- Navbar -->
 <nav>
 <div class="navbar">
 <div class="logo"><a href="#">My Portfolio</a></div>
+
 <ul class="menu">
-<li><a href="#home"><b>Home</b></Home></a></li>
+<li><a href="#home"><b>Home</b></a></li>
 <li><a href="#about"><b>About Me</b></a></li>
 <li><a href="#skills"><b>Skills</b></a></li>
 <li><a href="#projects"><b>Projects</b></a></li>
-<li><a href="#contact"><b>Contact Me</b></a></li>
-<div class="cancel-btn">
-<i class="fas fa-times"></i>
-</div>
+<li><a href="#contact"><b>Contact</b></a></li>
+<div class="cancel-btn"><i class="fas fa-times"></i></div>
 </ul>
+
 <div class="media-icons">
 <a href="https://www.facebook.com/Cheshta3008"><i class="fab fa-facebook-f"></i></a>
 <a href="https://twitter.com/trailblazerCG30"><i class="fab fa-twitter"></i></a>
@@ -56,19 +62,17 @@
 <a href="https://www.linkedin.com/in/cheshta-gupta-207186182"><i class="fab fa-linkedin"></i></a>
 </div>
 </div>
-<div class="menu-btn">
-<i class="fas fa-bars"></i>
-</div>
+<div class="menu-btn"><i class="fas fa-bars"></i></div>
 </nav>
 
-<!-- Home Section Start -->
+<!-- Home Section -->
 <section class="home" id="home">
 <div class="home-content">
 <div class="text">
 <div class="text-one">Hello,</div>
 <div class="text-two">I'm Cheshta Gupta</div>
 <div class="text-three">Digital Marketer</div>
-<div class="text-four">From Krishna Nagar, Delhi</div>
+<div class="text-four">From Delhi, India</div>
 </div>
 <div class="button">
 <button>Hire Me</button>
@@ -76,22 +80,27 @@
 </div>
 </section>
 
-<!-- About Me Section Start -->
+<!-- About Section -->
 <section class="about" id="about">
 <div class="content">
 <div class="title"><span>About Me</span></div>
+
 <div class="about-details">
 <div class="left">
-<img src="img/about.jpeg" alt="" />
+<img src="img/about.jpeg" alt="Digital Marketer">
 </div>
+
 <div class="right">
 <div class="topic"><b>Digital Marketing Is My Passion</b></div>
 <p>
-Looking for a challenging role in a reputable organization to utilize my skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT Technologies.
+I am a results-driven Digital Marketer passionate about building strong online visibility for brands.
+I specialize in SEO, social media marketing, paid advertising, and performance analytics.
+My goal is to drive traffic, engagement, and conversions through data-backed strategies.
 </p>
+
 <div class="button">
-<a href="Cheshta Profile.pdf" download="Cheshta CV">
-<button type="button">Download</button>
+<a href="Cheshta Profile.pdf" download="Cheshta_Gupta_Digital_Marketer_CV">
+<button>Download CV</button>
 </a>
 </div>
 </div>
@@ -99,99 +108,95 @@ Looking for a challenging role in a reputable organization to utilize my skills 
 </div>
 </section>
 
-<!-- My Skills Section Start -->
-<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<!-- Skills Section -->
 <section class="skills" id="skills">
 <div class="content">
 <div class="title"><span>My Skills</span></div>
+
 <div class="skills-details">
 <div class="text">
-<div class="topic"><b><p>Skills Reflects Our Knowledge</p></b></div>
-<p>A skill is the learned ability to act with determined results with good execution often within a given amount of time, energy, or both.</p>
-<p>Skills can often be divided into domain-general & domain-specific skills.</p>
-<div class="experience">
-<div class="num">Fresher</div>
-</div>
-<center>
-<p><b>HTML</b></p>
+<div class="topic"><b>Skills Reflect My Expertise</b></div>
+<p>I focus on performance-driven digital marketing strategies backed by analytics and creativity.</p>
+
+<p><b>SEO (Search Engine Optimization)</b></p>
 <div class="container">
-  <div class="skills html">90%</div>
+<div class="skills-bar seo">85%</div>
 </div>
 
-<p><b>CSS</b></p>
+<p><b>Social Media Marketing</b></p>
 <div class="container">
-  <div class="skills css">70%</div>
+<div class="skills-bar smm">80%</div>
 </div>
 
-</center>
+<p><b>Google Ads & Paid Campaigns</b></p>
+<div class="container">
+<div class="skills-bar ads">70%</div>
+</div>
+
+<p><b>Google Analytics & Reporting</b></p>
+<div class="container">
+<div class="skills-bar analytics">75%</div>
+</div>
+
 </div>
 </div>
 </div>
 </section>
 
-<!-- My Projects Section Start -->
-<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<!-- Projects Section -->
 <section class="projects" id="projects">
 <div class="content">
 <div class="title"><span>My Projects</span></div>
+
 <div class="boxes">
+
+<!-- Project 1 -->
 <div class="box">
-<div class="icon">
-<i class='fas fa-store-alt'></i>
+<div class="icon"><i class="fas fa-chart-line"></i></div>
+<div class="topic"><b>SEO Optimization Campaign</b></div>
+<p>
+Improved organic traffic by optimizing on-page SEO, keywords, meta tags, and content strategy for a local business website.
+</p>
+<p><b>Tools Used:</b> Google Search Console, Ahrefs, Google Analytics</p>
 </div>
-<div class="topic"><b>Online Cake Ordering System</b></div>
-<p>The purpose of this project is to create a website named <b><u>Tasty Cakes</u></b> that will allow users to order cake of their choice, shape & flavor through internet from anywhere & anytime.</p>
-<br>
-<p><b>Technologies Used:-</b> HTML, CSS.</p>
-<br>
-<div class="icon">
-<i class="fa fa-link"></i>
-</div>
-<p><a href="https://cheshta300899.github.io/Tasty-Cakes/Home Page.html" target="_blank">Demo</a></p>
-<br>
-<div class="icon">
-<i class="fa fa-github"></i>
-</div>
-<p><a href="https://github.com/Cheshta300899/Tasty-Cakes" target="_blank">Repository</a></p>
-</div>
+
+<!-- Project 2 -->
 <div class="box">
-<div class="icon">
-<i class="fa fa-tv"></i>
+<div class="icon"><i class="fas fa-bullhorn"></i></div>
+<div class="topic"><b>Social Media Growth Campaign</b></div>
+<p>
+Planned and executed Instagram & Facebook campaigns, increasing engagement and follower growth organically.
+</p>
+<p><b>Platforms:</b> Instagram, Facebook, Canva</p>
 </div>
-  
-<div class="topic"><b>A Dev Blog</b></div>
-<p>The purpose of this project is to create a blog named <b><u>ICODER</u></b> that will allow developers to share their knowledge, guidance & expertise with a wider audience.</p>
-<br>
-<p><b>Technologies Used:-</b> HTML, CSS.</p>
-<br>
-<div class="icon">
-<i class="fa fa-link"></i>
+
+<!-- Project 3 -->
+<div class="box">
+<div class="icon"><i class="fas fa-ad"></i></div>
+<div class="topic"><b>Google Ads Campaign</b></div>
+<p>
+Created and optimized Google Ads campaigns focused on lead generation with conversion tracking.
+</p>
+<p><b>Tools:</b> Google Ads, Google Analytics</p>
 </div>
-<p><a href="https://cheshta300899.github.io/ICODER/home.html" target="_blank">Demo</a></p>
-<br>
-<div class="icon">
-<i class="fa fa-github"></i>
-</div>
-<p><a href="https://github.com/Cheshta300899/ICODER" target="_blank">Repository</a></p>
-</div>
+
 </div>
 </div>
 </section>
 
-<!-- Contact Me section Start -->
+<!-- Contact Section -->
 <section class="contact" id="contact">
 <div class="content">
 <div class="title"><span>Contact Me</span></div>
+
 <div class="text">
 <div class="topic">Need Any Help?</div>
 <i class="material-icons" style="font-size:48px;color:red">mail</i>
-<h3>Write me on cheshta3008@gmail.com</h3>
+<h3>Email me at <b>cheshta3008@gmail.com</b></h3>
 </div>
 </div>
-</section>  
-  
-<script src="script.js"></script> 
-  
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
-
